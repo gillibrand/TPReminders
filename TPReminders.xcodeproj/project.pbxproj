@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A21B7601663D9D373A98861 /* ScanEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583F5568924263FD722B0EA6 /* ScanEngine.swift */; };
+		3E1735E1293966F74ADDF1C6 /* TaskPaperParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02785242329000318D0AEA0 /* TaskPaperParser.swift */; };
+		71FC29CBDD49C7F3C350DAB9 /* WatchedFilesStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0663AABEAA4412463C0085 /* WatchedFilesStore.swift */; };
+		806C444209BBE58E86C2D597 /* ScanScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E544B0D9D7E1AD2F7EB40EE /* ScanScheduler.swift */; };
+		8BAD1F251FF1AFAB2A8B3BDE /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BFA0433B797764D959D5B1 /* NotificationService.swift */; };
+		8D493A4C5792DD80D5DC48AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77067CF0449CA0462356B8C8 /* AppDelegate.swift */; };
+		971E1E68B46F5AAD12AED709 /* TaskItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD380ECA03458027AA649666 /* TaskItem.swift */; };
+		A9CC4FAA7DB103BC852AE812 /* StatusBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D956326A3FC338011C3009E /* StatusBarController.swift */; };
+		CF6BD7DEFFCCF67E726AAB71 /* PreferencesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF6457AC2612AC600295475 /* PreferencesView.swift */; };
+		F26F7CA776865E0F57777277 /* LoginItemService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F177155CAAEB065C0814E01 /* LoginItemService.swift */; };
+		FF353990D2DDDC242ABDFB79 /* TPRemindersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892C698B7652C5D00C5449D9 /* TPRemindersApp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0E544B0D9D7E1AD2F7EB40EE /* ScanScheduler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanScheduler.swift; sourceTree = "<group>"; };
+		156FAF967F4F0A3FCBE22E21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		1F177155CAAEB065C0814E01 /* LoginItemService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginItemService.swift; sourceTree = "<group>"; };
+		27EA63788FD1F3A0ED54999D /* TPReminders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TPReminders.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30FA15730431F38DA495147C /* TPReminders.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TPReminders.entitlements; sourceTree = "<group>"; };
+		35BFA0433B797764D959D5B1 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		583F5568924263FD722B0EA6 /* ScanEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanEngine.swift; sourceTree = "<group>"; };
+		6D956326A3FC338011C3009E /* StatusBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarController.swift; sourceTree = "<group>"; };
+		77067CF0449CA0462356B8C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		892C698B7652C5D00C5449D9 /* TPRemindersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TPRemindersApp.swift; sourceTree = "<group>"; };
+		8C0663AABEAA4412463C0085 /* WatchedFilesStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchedFilesStore.swift; sourceTree = "<group>"; };
+		9DF6457AC2612AC600295475 /* PreferencesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesView.swift; sourceTree = "<group>"; };
+		A02785242329000318D0AEA0 /* TaskPaperParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskPaperParser.swift; sourceTree = "<group>"; };
+		FD380ECA03458027AA649666 /* TaskItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskItem.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		26908D93D545A212A1F6E2E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27EA63788FD1F3A0ED54999D /* TPReminders.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26DC89AF4E3741A396AC0526 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				9DF6457AC2612AC600295475 /* PreferencesView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		2C4A9ED4CA9104B5DFCA6EEE /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				35BFA0433B797764D959D5B1 /* NotificationService.swift */,
+				583F5568924263FD722B0EA6 /* ScanEngine.swift */,
+				0E544B0D9D7E1AD2F7EB40EE /* ScanScheduler.swift */,
+				8C0663AABEAA4412463C0085 /* WatchedFilesStore.swift */,
+			);
+			path = Engine;
+			sourceTree = "<group>";
+		};
+		305A0A288C1F819558F9671C /* Parsing */ = {
+			isa = PBXGroup;
+			children = (
+				A02785242329000318D0AEA0 /* TaskPaperParser.swift */,
+			);
+			path = Parsing;
+			sourceTree = "<group>";
+		};
+		64993260DD4DB326534A039B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FD380ECA03458027AA649666 /* TaskItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AD96F04E8114824BAEFAD511 /* LoginItem */ = {
+			isa = PBXGroup;
+			children = (
+				1F177155CAAEB065C0814E01 /* LoginItemService.swift */,
+			);
+			path = LoginItem;
+			sourceTree = "<group>";
+		};
+		E158B98ADE58A0D81FA9160E = {
+			isa = PBXGroup;
+			children = (
+				FB023359C46126FC8F02EA61 /* TPReminders */,
+				26908D93D545A212A1F6E2E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB023359C46126FC8F02EA61 /* TPReminders */ = {
+			isa = PBXGroup;
+			children = (
+				77067CF0449CA0462356B8C8 /* AppDelegate.swift */,
+				156FAF967F4F0A3FCBE22E21 /* Info.plist */,
+				6D956326A3FC338011C3009E /* StatusBarController.swift */,
+				30FA15730431F38DA495147C /* TPReminders.entitlements */,
+				892C698B7652C5D00C5449D9 /* TPRemindersApp.swift */,
+				2C4A9ED4CA9104B5DFCA6EEE /* Engine */,
+				AD96F04E8114824BAEFAD511 /* LoginItem */,
+				64993260DD4DB326534A039B /* Models */,
+				305A0A288C1F819558F9671C /* Parsing */,
+				26DC89AF4E3741A396AC0526 /* UI */,
+			);
+			path = TPReminders;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE1991E6DCBD7C062A59B2B6 /* TPReminders */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5D78867CD652719C0A0E27F /* Build configuration list for PBXNativeTarget "TPReminders" */;
+			buildPhases = (
+				ED96AE7DB9D8646E89F78632 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TPReminders;
+			packageProductDependencies = (
+			);
+			productName = TPReminders;
+			productReference = 27EA63788FD1F3A0ED54999D /* TPReminders.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE8E5A0FE905EC61D8FFD691 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					AE1991E6DCBD7C062A59B2B6 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 45D8544E926806254FA481F4 /* Build configuration list for PBXProject "TPReminders" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = E158B98ADE58A0D81FA9160E;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 26908D93D545A212A1F6E2E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE1991E6DCBD7C062A59B2B6 /* TPReminders */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED96AE7DB9D8646E89F78632 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D493A4C5792DD80D5DC48AD /* AppDelegate.swift in Sources */,
+				F26F7CA776865E0F57777277 /* LoginItemService.swift in Sources */,
+				8BAD1F251FF1AFAB2A8B3BDE /* NotificationService.swift in Sources */,
+				CF6BD7DEFFCCF67E726AAB71 /* PreferencesView.swift in Sources */,
+				3A21B7601663D9D373A98861 /* ScanEngine.swift in Sources */,
+				806C444209BBE58E86C2D597 /* ScanScheduler.swift in Sources */,
+				A9CC4FAA7DB103BC852AE812 /* StatusBarController.swift in Sources */,
+				FF353990D2DDDC242ABDFB79 /* TPRemindersApp.swift in Sources */,
+				971E1E68B46F5AAD12AED709 /* TaskItem.swift in Sources */,
+				3E1735E1293966F74ADDF1C6 /* TaskPaperParser.swift in Sources */,
+				71FC29CBDD49C7F3C350DAB9 /* WatchedFilesStore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		03081579E6635F7573FE940F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TPReminders/TPReminders.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = TPReminders/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dorothy.TPReminders;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+		2E8E088BA8AF7C299EE4471A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TPReminders/TPReminders.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = TPReminders/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dorothy.TPReminders;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+		6F07B46E81745D5AB98B7370 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E9D7F0A9743F2F943873A8DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45D8544E926806254FA481F4 /* Build configuration list for PBXProject "TPReminders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9D7F0A9743F2F943873A8DD /* Debug */,
+				6F07B46E81745D5AB98B7370 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B5D78867CD652719C0A0E27F /* Build configuration list for PBXNativeTarget "TPReminders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03081579E6635F7573FE940F /* Debug */,
+				2E8E088BA8AF7C299EE4471A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE8E5A0FE905EC61D8FFD691 /* Project object */;
+}
